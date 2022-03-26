@@ -60,7 +60,7 @@ body{
 }
 
 .formulario{
-    background: url("/assets/link/img/images/img-dark-550x350.jpg");
+    background:linear-gradient(rgba(54, 52, 52, 0.5), rgba(206, 156, 156, 0.671)), url("/assets/link/img/images/img-dark-550x350.jpg");
     width: 80%;
     padding: 10px;
     margin-left: auto;
@@ -72,7 +72,7 @@ body{
 
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    color: darkolivegreen;
+    color: cornflowerblue  ;
 
 }
 
@@ -87,10 +87,24 @@ input[type="submit"]{
     background: #111;
     padding: 5px;
     border-radius: 5px;
-    color: #1f1;
+    color:cornflowerblue;
 }
+#label_sumname,
+#label_sumname2{
+font-size: 0.65em;
+}
+
 .footer{
     display: flex;
     justify-content: space-around;
         padding: 1em;
+}
+.footer .redes {
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+}
+.footer .redes img{
+    width: 40px;
+    margin-left: 20px;
 }
